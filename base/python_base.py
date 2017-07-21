@@ -50,4 +50,9 @@ print(len('ABC'))
 print(len('中文'.encode('utf-8')))
 print('Age: %s. Gender: %s' % (25, True))
 r = 'hello'
-print('hello' % r)
+#print('hello' % r)
+
+
+age = 20
+if age>=18:
+    print("your age is",age)
