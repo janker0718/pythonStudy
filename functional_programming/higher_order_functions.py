@@ -50,3 +50,15 @@ print(reduce(fn,map(char2num,'13579')))
 def str2int(s):
     return reduce(fn,map(char2num,s))
 
+def str2int2(s):
+    return reduce(lambda x,y:x*10 + y,map(char2num,s))
+print('str2int2:',str2int2('13579'))
+
+# test
+
+def upToLow(x):
+    return str(x).lower()
+a = ['adam', 'LISA', 'barT']
+
+r = map(upToLow,a)
+print(list(r))
