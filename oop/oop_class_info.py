@@ -22,3 +22,5 @@ print(type(lambda x :x ) == types.LambdaType)
 
 print(type((x for x in range(10)))== types.GeneratorType)
 
+
+
