@@ -17,3 +17,10 @@ class Student(object):
             return 'B'
         else:
             return 'C'
+
+bart = Student('Bart Simpson', 59)
+print(bart.get_grade())
+bart.age = 8
+lisa = Student('Lisa Simpson', 87)
+print(bart.age)
+print(lisa.print_age)
