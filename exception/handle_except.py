@@ -11,7 +11,7 @@ try:
     print('result:',r)
 
 except ZeroDivisionError as e:
-    print('except:',e)
+    print('exception:',e)
 finally:
     print('finally...')
 print('END')
